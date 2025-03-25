@@ -79,7 +79,7 @@ async def show_account(client, message):
         # Calculate balance using the reduced link clicks
         balance = link_clicks / 5000.0  # Use floating-point division
         formatted_balance = f"{balance:.2f}"  # Format to 2 decimal places
-        response = f"<b>Your Api Key :- <code>{message.from_user.id}</code>\n\nVideo Plays :- {reduced_link_clicks} ( Delay To Show Data )\n\nBalance :- ${formatted_balance}</b>"
+        response = f"<b>Your Api Key :- <code>{message.from_user.id}</code>\n\nVideo Plays :- {link_clicks} ( Delay To Show Data )\n\nBalance :- ${formatted_balance}</b>"
     else:
         response = f"<b>Your Api Key :- <code>{message.from_user.id}</code>\nVideo Plays :- 0 ( Delay To Show Data )\nBalance :- $0</b>" 
     await message.reply(response)
