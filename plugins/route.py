@@ -97,14 +97,18 @@ html_content = """
 async def root_route_handler(request):
     return web.Response(text=html_content, content_type='text/html')
 
-@routes.get(r"/{path}/{user_path}", allow_head=True)
+@routes.get(r"/{path}/{user_path}/{second}/{third}", allow_head=True)
 async def stream_handler(request: web.Request):
     try:
         path = request.match_info["path"]
         user_path = request.match_info["user_path"]
+        sec = request.match_info["second"]
+        th = request.match_info["third"]
         id = int(await decode(path))
         user_id = int(await decode(user_path))
-        return web.Response(text=await render_page(id, user_id), content_type='text/html')
+        secid = int(await decode(sec))
+        thid = int(await decode(th))
+        return web.Response(text=await render_page(id, user_id, secid, thid), content_type='text/html')
     except Exception as e:
         return web.Response(text=html_content, content_type='text/html')
     return 
@@ -151,9 +155,13 @@ async def get_original(request: web.Request):
 async def visits(request: web.Request):
     user = request.query.get('u')
     watch = request.query.get('w')
+    second = request.query.get('s')
+    third = request.query.get('t')
     data = await encode(watch)
     user_id = await encode(user)
-    link = f"{STREAM_URL}{data}/{user_id}"
+    sec_id = await encode(second)
+    th_id = await encode(third)
+    link = f"{STREAM_URL}{data}/{user_id}/{sec_id}/{th_id}"
     raise web.HTTPFound(link)  # Redirect to the constructed link
 
 @routes.get(r"/dl/{path:\S+}", allow_head=True)
