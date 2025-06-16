@@ -3,8 +3,8 @@ import motor.motor_asyncio
 from info import MONGODB_URI
 
 client = MongoClient(MONGODB_URI)
-db = client['uservsit']
-collection = db['vists']
+db = client['videoplays']
+collection = db['playscount']
 
 def record_visit(user: int, count: int):
     existing_visit = collection.find_one({
@@ -77,7 +77,7 @@ class Database2:
         user = await self.col.find_one({'id':int(id)})
         return bool(user)
 
-checkdb = Database2(MONGODB_URI, "TechVJVideoPlayer")
+checkdb = Database2(MONGODB_URI, "TechVJVideoPlayerBot")
 
 class Database:
     
@@ -126,4 +126,4 @@ class Database:
         user = await self.col.find_one({'id': int(id)})
         return user.get('c_link')
 
-db = Database(MONGODB_URI, "VJVideoPlayer")
+db = Database(MONGODB_URI, "VJVideoPlayerBot")
