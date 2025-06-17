@@ -254,8 +254,9 @@ PORT = 8080
 - ***In Simple These Are Video Tutorial Of How To Create Video Player Website For Free.***
 
 * **Episode 1 : https://youtu.be/fIQK5wnyQsM**
-* **Episode 2 : Coming Soon..**
+* **Episode 2 : https://youtu.be/SC4uKotZjHE**
 * **Episode 3 : Coming Soon..**
+* **Episode 4 : Coming Soon..**
 
 ### **❤️ Thanks To :**
 
