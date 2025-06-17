@@ -25,12 +25,25 @@
   <b><i>This bot is as like terabox, mdisk, pdisk etc bot. This bot stream your file or video on website with the help of telegram bot and channel. User can create his account on this bot and can earn money by generating and sharing link. Bot uses telegram cloud (telegram channel) to store file or video. This bot came with site customisation and with quality option.</i></b>
 </p>
 
+### See How Bot & Website Look Like
+
+<b><details><summary>Tap On Me For Demo Bot</summary></b>
+
+<img src="https://i.ibb.co/RT6Dkzx6/photo-2025-06-17-07-58-16-7516824579164078084.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/3978cnqt/photo-2025-06-17-07-58-16-7516824720897998868.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/N2w6Nktz/photo-2025-06-17-07-58-16-7516824759552704536.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/21pFTrGy/photo-2025-06-17-07-58-17-7516824793912442904.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/23MB89XG/photo-2025-06-17-07-58-17-7516824858336952336.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/fYfvsZ48/photo-2025-06-17-07-58-17-7516824884106756120.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/60zNbkp0/photo-2025-06-17-07-58-17-7516824909876559896.jpg" alt="Bot Demo">
+</details>
+
 
 ### **🔧 How To Deploy :**
 
 - <u><b><i>Either you could locally host, VPS, Koyeb, Render, Seenode, Heroku or Any where this repo support.</i></b></u>
 
-#### **👨‍💻 Click On This Drop-Down And Get More Details**
+### **👨‍💻 Click On This Drop-Down And Get More Details**
 
 <br>
 <details>
