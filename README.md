@@ -25,7 +25,7 @@
   <b><i>This bot is as like terabox, mdisk, pdisk etc bot. This bot stream your file or video on website with the help of telegram bot and channel. User can create his account on this bot and can earn money by generating and sharing link. Bot uses telegram cloud (telegram channel) to store file or video. This bot came with site customisation and with quality option.</i></b>
 </p>
 
-### See How Bot & Website Look Like
+### 🌐 See How Bot & Website Look Like
 
 <b><details><summary>Tap On Me For Demo Bot</summary></b>
 
