@@ -255,7 +255,7 @@ PORT = 8080
 
 * **Episode 1 : https://youtu.be/fIQK5wnyQsM**
 * **Episode 2 : https://youtu.be/SC4uKotZjHE**
-* **Episode 3 : Coming Soon..**
+* **Episode 3 : https://youtu.be/NkJaO4tionY**
 * **Episode 4 : Coming Soon..**
 
 ### **❤️ Thanks To :**
